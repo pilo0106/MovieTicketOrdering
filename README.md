@@ -9,7 +9,7 @@ An Android-based movie ticket booking application that allows users to browse mo
 - Movie search with keyword suggestions
 - Detailed movie pages (e.g., Godzilla, Furiosa, Panda 4, The Full Guy, etc.)
 - User profile management
-- 🖼Image carousel and RecyclerView layout
+- Image carousel and RecyclerView layout
 
 ## Project Structure
 
