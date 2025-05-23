@@ -1,17 +1,17 @@
-# 🎬 Movie Ticket Ordering App
+# Movie Ticket Ordering App
 
-一個基於 Android 的電影票訂購應用，提供使用者瀏覽電影資訊、詳細介紹、登入註冊、搜尋推薦等功能。
+An Android-based movie ticket booking application that allows users to browse movie information, view detailed descriptions, log in or register, and explore keyword-based search recommendations.
 
-## 📱 功能介紹
+## Features
 
-- 🔐 使用者登入 / 註冊
-- 🎞️ 熱門電影與即將上映電影瀏覽
-- 🔍 電影搜尋與關鍵字推薦系統
-- 📄 多部電影的詳細介紹頁面（如 Godzilla、Furiosa、Panda 4、The Full Guy 等）
-- 🧾 個人檔案頁面管理
-- 🖼️ 圖片輪播與 RecyclerView 排列
+- User login and registration
+- Browse popular and upcoming movies
+- Movie search with keyword suggestions
+- Detailed movie pages (e.g., Godzilla, Furiosa, Panda 4, The Full Guy, etc.)
+- User profile management
+- 🖼Image carousel and RecyclerView layout
 
-## 📁 專案結構
+## Project Structure
 
 ```
 MovieTicketOrdering/
@@ -26,29 +26,33 @@ MovieTicketOrdering/
 │   │   │   │   ├── SearchingPage.java
 │   │   │   │   ├── Adapter/...
 │   │   │   │   ├── KeyWord_package/...
-│   │   │   │   └── [電影詳細頁 *.java]
+│   │   │   │   └── [Movie detail pages *.java]
 │   │   │   └── AndroidManifest.xml
 │   ├── build.gradle.kts
 ├── build.gradle.kts
 ├── settings.gradle.kts
 ```
 
-## 🧰 技術棧
+## Tech Stack
 
-- 📱 **Android SDK**
-- ☕ **Java**
-- 🧱 **Gradle Kotlin DSL**
-- 📦 Firebase（含 `google-services.json`）
-- 🎨 XML Layouts, RecyclerView, Adapter 模式
+- **Android SDK**
+- **Java**
+- **Gradle Kotlin DSL**
+- Firebase (includes `google-services.json`)
+- XML Layouts, RecyclerView, Adapter pattern
 
-## 🚀 執行方式
+## Getting Started
 
-1. 開啟 Android Studio 並導入本專案資料夾
-2. 確保你已配置 Firebase 並更新 `google-services.json`
-3. 點擊「執行」即可部署至模擬器或實體裝置
+1. Open the project in Android Studio
+2. Make sure Firebase is configured and `google-services.json` is in place
+3. Click "Run" to deploy on an emulator or physical device
 
-## 📌 注意事項
+## Notes
 
-- 確保你的 Android Studio 支援 Kotlin DSL（建議使用 Arctic Fox 或以上版本）
-- 使用者登入功能需要 Firebase Auth 設定
-- 如有使用 Firestore 或 Storage 功能，請至 Firebase 控制台啟用並設定權限
+- Ensure your Android Studio supports Kotlin DSL (recommended: Arctic Fox or newer)
+- Firebase Auth is required for login features
+- If using Firestore or Storage, configure access rules via Firebase Console
+
+## License
+
+This project for education only.
