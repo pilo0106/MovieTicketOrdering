@@ -35,9 +35,9 @@ MovieTicketOrdering/
 
 ## Tech Stack
 
-- **Android SDK**
-- **Java**
-- **Gradle Kotlin DSL**
+- Android SDK
+- Java
+- Gradle Kotlin DSL
 - Firebase (includes `google-services.json`)
 - XML Layouts, RecyclerView, Adapter pattern
 
