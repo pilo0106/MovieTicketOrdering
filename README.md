@@ -55,4 +55,4 @@ MovieTicketOrdering/
 
 ## License
 
-This project for education only.
+This project is for educational purposes only.
