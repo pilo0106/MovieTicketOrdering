@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "217450757159",
+    "project_id": "movieticketordering-b8dea",
+    "storage_bucket": "movieticketordering-b8dea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:217450757159:android:6bb1e037f7b3b955ec2202",
+        "android_client_info": {
+          "package_name": "com.example.movieticketordering"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlDfWFviGbg1WqiVkq2GeoonfC84x9WQ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_color"
+    tools:context=".TheFullGuyDetail">
+
+    <ImageView
+        android:id="@+id/scenes"
+        android:layout_width="416dp"
+        android:layout_height="336dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/godzillascenes"
+        app:layout_constraintBottom_toTopOf="@+id/movieposter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.43" />
+
+
+    <ImageView
+        android:id="@+id/movieposter"
+        android:layout_width="135dp"
+        android:layout_height="195dp"
+        android:layout_marginTop="172dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/godzilla_poster"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Godzilla x Kong: The New Empire"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/movieposter" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:accessibilityHeading="false"
+        android:background="@drawable/edittext_background"
+        android:stateListAnimator="@null"
+        android:text="BOOK NOW"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/backbtn"
+        android:layout_width="44dp"
+        android:layout_height="32dp"
+        android:src="@drawable/back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp" />
+    <TextView
+        android:id="@+id/storyOutline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="Three years after defeating Mechagodzilla, Kong has established his new territory in the Hollow Earth and searches for more of his kind. On Earth's surface, Godzilla continues to maintain order between humanity and giant monsters, known as 'Titans' — killing Scylla in Rome and resting in the Colosseum afterwards.
+
+A Monarch observation outpost stationed in Hollow Earth picks up an unidentified signal. On the surface, the signal causes Jia, the last known survivor of the Iwi tribe from Skull Island, to experience hallucinations and visions, causing her adoptive mother, Dr. Ilene Andrews, to worry."
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textAlignment="viewStart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView3" />
+
+    <FrameLayout
+        android:id="@+id/layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
